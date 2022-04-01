@@ -1,60 +1,57 @@
 body {
-    background-color: rgb(37, 37, 37);
-    margin: 0;
+box-sizing: border-box;
+background-color: rgb(14, 14, 14);
+margin: 5px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
-    float: inline-start; 
-    font-size: large;
-}
+
 h1 {
-    text-align: center; font-size: 60px;
+    text-align: center; font-size: 100px; color: aqua;
+    background-image: linear-gradient(#f10000, rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent
 }
 
-h2 {
-    border-style:dashed;border-color: aqua;font-size: 40px;
-}
+
 p {
-    text-shadow: 2px 1px #ffffff;
+    color: aliceblue;
     font-size: 30px;
-    display:block;
+    display:flex;
 }
-h3 {
-    border-style:dashed; border-color: aquamarine;font-size: 40px;
-}
+
 
 .sticky {
     position: sticky;
     top: 0;
     width: 100%;  
-}
- 
+  }
+
   
   ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
-  }
-  
+    background-color: rgb(0, 0, 0); }
+
   li {
-    float: left;
-  }
-  
+    float: left;}
+
   li a {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   li a:hover:not(.active) {
     background-color: rgb(40, 91, 126);
   }
 
   .Deo {
-    width: 1500px; height: auto;
+    width: 1700px; height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -62,4 +59,151 @@ h3 {
     border-radius:300px
   }
   
+  .column {
+    float: left;
+    width: 860px;
+    text-align: left;
+    padding: 40px;
+  }
+
+  .row {
+    display: table;
+    clear: both;
+  }
+
+  h2 {
+    font-size: 80px; text-align: center; position:flex;
+    color: aquamarine;
+  }
+  h3 {
+    font-size: 50px; text-align: center; color: aquamarine;
+    font: ;
+  }
+
+  .Pika-image {
+    background-image: url(/Pictures/Pika\ Resize.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: flex;
+    height: 480px;
+    margin: 0;
+
+  }
+
+  .Pika-text {
+    color: rgb(14, 14, 14);
+    margin: auto;
+  }
+.P-Text {
+  width: 50%;
+  padding: 120px;
+}
+
   
+.icons {
+  display: inline-block;
+  margin: 160px;
+}
+
+.socials {
+  color: aquamarine;
+  text-align: center;
+  font-size: 40px;
+}
+
+#Twitter {
+  margin-left: 95px; 
+  font-size: 35px;
+  text-decoration: none;
+}
+
+#Instagram {
+  margin-left: 75px; 
+  font-size: 35px;
+  text-decoration: none;
+
+}
+
+#TikTok {
+  margin-left: 105px; 
+  font-size: 35px;
+  text-decoration: none;
+}
+
+/* .about-image { 
+  position: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 1500px;
+  
+} */
+
+.Gara {
+  position: flex;
+  height: 600px;
+  width: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 40%;
+  margin-left: 200px;
+  float: left;
+}
+
+.column2 {
+    float: left;
+    height: 600px;
+    width: 400px;
+    text-align: left;
+    padding: 100px;
+  }
+
+.row2 {
+    display: inline-block;
+    clear: both;
+  }
+
+.mad {
+  margin-left: 40px;
+}
+
+.map {
+  position: center;
+  float: left;
+  margin-left: 40px;
+}
+
+.pip {
+  float: left;
+  margin-left: 40px;
+}
