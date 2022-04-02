@@ -80,16 +80,12 @@ p {
     font: ;
   }
 
-  .Pika-image {
-    background-image: url(../Pictures/Pika Resize.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .pikachu {
     position: flex;
-    height: 480px;
+    height: 530px;
+    width: auto;
     margin: 0;
-
-  }
+}
 
   .Pika-text {
     color: rgb(14, 14, 14);
